@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="Car Rental - Home Page Design.css">
+    </head>
+    <body>
+        <div class="box">
+            <h1>Superior Cars</h1>
+            <div class="topnav">
+                <a href="Car Rental - About Page.html" style="border-right: 1px solid darkblue;">About</a>
+                <a href="Car Rental - Location Page.html" style="border-right: 1px solid darkblue;">Locations</a>
+                <a href="Car Rental - Contact Page.html" style="border-right: 1px solid darkblue;">Contact</a>
+                <a href="Car Rental - Search Reservation Page.html">Search Reservation</a>
+            </div>
+            
+            <div class="slideshowbox">
+                <div class="mySlides fade">
+                    <img src="https://dealerinspire-image-library-prod.s3.us-east-1.amazonaws.com/images/FQ5xUWSAbFxwUfDG3sBpCXTsKjikOfJX3ion9gmG.jpg" style="width: 750px; height: 400px;">
+                </div>
+                <div class="mySlides fade, center">
+                    <img src="https://tdrresearch.azureedge.net/photos/chrome/Expanded/White/2018HOC010002/2018HOC01000201.jpg?w=400"
+                    style="width: 500px; height: 400px; border: 1px solid black; padding-left: 200px; 
+                    margin-left: -275px; padding-right:200px;">
+                </div>
+                <div class="mySlides fade, center">
+                    <img src="https://di-uploads-pod4.dealerinspire.com/mercedesbenzbrampton/uploads/2016/01/2016-Mercedes-Benz-C450-AMG-s1.jpg"
+                    style="width: 850px; height: 400px;  margin-left: -250px;">
+                    <!--https://www.w3schools.com/howto/howto_css_image_center.asp-->
+                </div>
+                <div class="mySlides fade">
+                    <img src="https://dealerimages.dealereprocess.com/image/upload/2456177" style="width: 750px; height: 400px;">
+                </div>
+                <div class="mySlides fade">
+                    <img src="http://d197holp4eo326.cloudfront.net/wp-content/uploads/2015/05/Yaris-Sedan-03.jpg" style="width: 750px; height: 400px;">
+                </div>
+                <div class="mySlides fade">
+                    <img src="https://www.motortrend.com/uploads/sites/5/2020/03/2020-Audi-Q7-11.jpg" style="width: 750px; height: 400px;">
+                </div>
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                    <span class="dot" onclick="currentSlide(5)"></span>
+                    <span class="dot" onclick="currentSlide(6)"></span>
+                </div>
+            </div>
+            <div class = "column">
+            <p style="text-align: center; font-size: 20px;">Pick Up</p>
+            <select class = "dropdown-container">
+                <option class = "Select" >Select a Destination for Pickup</option>     
+                <option class = "Address1">34 Leslie Crescent, Brampton, ON</option>
+                <option class = "Address2">99 Thomas Avenue, Brampton, ON</option>
+                <option class = "Address3">27 Hillcrest Blvd, Brampton, ON</option>
+                <option class = "Address4">46 Willie Street, Brampton, ON</option>
+            </select>
+            <br><br>
+            <select class = "dropdown-container">
+                <option class = "Select" >Select a Time for Pickup</option>     
+                <option class = "Address1">9:00 am</option>
+                <option class = "address">9:30 am</option>
+                <option class = "Address2">10:00 am</option>
+                <option class = "address">10:30 am</option>
+                <option class = "Address3">11:00 am</option>
+                <option class = "address">11:30 am</option>
+                <option class = "Address4">12:00 pm</option>
+                <option class = "address">12:30 pm</option>
+                <option class = "address">1:00 pm</option>
+                <option class = "address">1:30 pm</option>
+                <option class = "address">2:00 pm</option>
+                <option class = "address">2:30 pm</option>
+                <option class = "address">3:00 pm</option>
+                <option class = "address">3:30 pm</option>
+                <option class = "address">4:00 pm</option>
+                <option class = "address">4:30 pm</option>
+                <option class = "address">5:00 pm</option>
+            </select>
+            <br><br>
+            <label style = "text-align: center;">Select a Date for Pickup</label>
+            <input class = "dropdown-container" type = "date" name = "Select Date for Pickup" style = "width: 375px;">
+            </div>
+            <div class = "columnright">
+            <p style="text-align: center; font-size: 20px;">Drop Off</p>
+            <select class = "dropdown-container">
+                <option class = "Select" >Select a Destination for Drop Off</option>     
+                <option class = "Address1">34 Leslie Crescent, Brampton, ON</option>
+                <option class = "Address2">99 Thomas Avenue, Brampton, ON</option>
+                <option class = "Address3">27 Hillcrest Blvd, Brampton, ON</option>
+                <option class = "Address4">46 Willie Street, Brampton, ON</option>
+            </select>
+            <br><br>
+            <select class = "dropdown-container">
+                <option class = "Select" >Select a Time for Drop Off</option>     
+                <option class = "Address1">9:00 am</option>
+                <option class = "address">9:30 am</option>
+                <option class = "Address2">10:00 am</option>
+                <option class = "address">10:30 am</option>
+                <option class = "Address3">11:00 am</option>
+                <option class = "address">11:30 am</option>
+                <option class = "Address4">12:00 pm</option>
+                <option class = "address">12:30 pm</option>
+                <option class = "address">1:00 pm</option>
+                <option class = "address">1:30 pm</option>
+                <option class = "address">2:00 pm</option>
+                <option class = "address">2:30 pm</option>
+                <option class = "address">3:00 pm</option>
+                <option class = "address">3:30 pm</option>
+                <option class = "address">4:00 pm</option>
+                <option class = "address">4:30 pm</option>
+                <option class = "address">5:00 pm</option>
+            </select>
+            <br><br>
+            <label style = "text-align: center;">Select a Date for Drop Off</label>
+            <input class = "dropdown-container" type = "date" name = "Select Date for Drop Off" style = "width: 375px;">
+            <!--https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_cascading_dropdown-->
+            </div>
+            <br><br><br><br>
+            <a  href = "Car Rental - Book a Car Page.html" target = "_blank"><button>Select Vehicle</button></a>
+            <!--https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_link_target-->
+        </div>
+        <script>
+            var slideIndex = 0;
+            showSlides();
+
+            function showSlides() {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                slideIndex++;
+                if (slideIndex > slides.length) {
+                    slideIndex = 1
+                }
+                slides[slideIndex-1].style.display = "block";
+                setTimeout(showSlides, 5000);
+            }
+        </script>
+    </body>
+</html>

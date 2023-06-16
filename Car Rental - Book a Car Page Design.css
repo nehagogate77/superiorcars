@@ -1,0 +1,198 @@
+body {
+    background-image: linear-gradient(#0093E9, #80D0C7);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.box {
+    width: 900px;
+    height: 2000px;
+    border: 1px solid white;
+    padding: 200px;
+    margin: 100px;
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+    font-size: 100px;
+    margin: -150px;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #80D0C7;
+    margin-top: 190px;
+    border: 1px solid #80D0C7;
+    border-radius: 50px;
+    padding: 7px;
+}
+
+.topnav a {
+    float: center;
+    color: #000000;
+    text-align: center;
+    padding: 50px 37px;
+    text-decoration: none;
+    font-size: 29.75px;
+    margin-top: 10px;
+}
+
+.topnav a:hover {
+    background-color: darkblue;
+    color: #80D0C7;
+    transition-duration: 0.5s;
+}
+
+.button {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    height: 200px;
+    width: 900px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color:#ccecff;
+    color: black;
+    border: 1px solid black;
+    height: 200px;
+    width: 900px;
+}
+
+.book, .backHome {
+    width: 435px;
+    background-color:#0093E9;
+    color: white;
+    border: none;
+    border-radius: 100px;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.book:hover {
+    width: 445px;
+    background-color:#80D0C7;
+    color: black;
+    border: none;
+    border-radius: 100px;
+    padding: 15px;
+    font-size: 20px;
+    transition-duration: 1s;
+}
+
+.backHome:hover {
+    width: 445px;
+    background-color:#80D0C7;
+    color: black;
+    border: none;
+    border-radius: 100px;
+    padding: 15px;
+    font-size: 20px;
+    transition-duration: 1s;   
+}
+
+.description {
+    font-size: 50px;
+    margin: -25px;
+    margin-top: 30px;
+}
+
+.checkbox {
+    width: 50px;
+    height: 50px;
+    float: right;
+    margin-top: 50px;
+    padding-right: 45px;
+}
+
+.popUp {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 50px;
+    left: 0;
+    top: 0;
+    width: 900px;
+    height: 500px;
+    overflow: auto;
+    background-color: rgba(0, 148, 233, 0.445); 
+    background-image: linear-gradient(#97D9E1, #D9AFD9);
+    border: 2px solid white;
+    margin-top: 90px;
+    margin-left: 300px;
+    bottom: -100px;
+}
+
+.popUpBox {
+    background-color: white;
+    color: black;
+    border: 1px solid #0093E9;
+    margin: auto;
+    padding: 100px;
+    border: 1px solid #888;
+    width: 70%;
+    height: 50%;
+}
+
+.textInsidePopUp {
+    font-size: 40px;
+    text-align: center;
+}
+
+.afterReservation {
+    width: 300px;
+    background-color:#0093E9;
+    color: white;
+    border: none;
+    border-radius: 100px;
+    padding: 15px;
+    font-size: 15px;
+}
+
+.afterReservation:hover {
+    width: 300px;
+    background-color:#80D0C7;
+    color: black;
+    border: none;
+    border-radius: 100px;
+    padding: 15px;
+    font-size: 15px;
+    transition-duration: 1s;
+}
+
+.popUpAgain {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 50px;
+    left: 0;
+    top: 0;
+    width: 900px;
+    height: 500px;
+    overflow: auto;
+    background-color: rgba(0, 148, 233, 0.445); 
+    background-image: linear-gradient(#97D9E1, #D9AFD9);
+    border: 2px solid white;
+    margin-top: 90px;
+    margin-left: 300px;
+    bottom: -100px;
+}
+
+.popUpBoxAgain {
+    background-color: white;
+    color: black;
+    border: 1px solid #0093E9;
+    margin: auto;
+    padding: 100px;
+    border: 1px solid #888;
+    width: 70%;
+    height: 50%;
+}
+
+.textInsidePopUpAgain {
+    font-size: 40px;
+    text-align: center;
+}

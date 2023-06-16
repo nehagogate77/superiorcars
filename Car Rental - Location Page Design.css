@@ -1,0 +1,80 @@
+body {
+    background-image: linear-gradient(#0093E9, #80D0C7);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.box {
+    width: 900px;
+    height: 1100px;
+    border: 1px solid white;
+    padding: 200px;
+    margin: 100px;
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+    font-size: 100px;
+    margin: -150px;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #80D0C7;
+    margin-top: 190px;
+    border: 1px solid #80D0C7;
+    border-radius: 50px;
+    padding: 7px;
+}
+
+.topnav a {
+    float: center;
+    color: #000000;
+    text-align: center;
+    padding: 50px 37px;
+    text-decoration: none;
+    font-size: 29.75px;
+    margin-top: 10px;
+}
+
+.topnav a:hover {
+    background-color: darkblue;
+    color: #80D0C7;
+    transition-duration: 0.5s;
+}
+
+.address {
+    border: 1px solid #0093E9;
+    border-radius: 10px;
+    width: 95%;
+    height: 250px;
+    font-size: 40px;
+    background-color: lightblue;
+    display: inline block;
+    text-align: center;
+}
+
+button {
+    width: 925px;
+    background-color:#0093E9;
+    color: white;
+    border: none;
+    border-radius: 100px;
+    padding: 15px;
+    font-size: 20px;
+    margin-top: 375px;
+}
+
+button:hover {
+    width: 925px;
+    background-color:#80D0C7;
+    color: black;
+    border: none;
+    border-radius: 100px;
+    padding: 15px;
+    font-size: 20px;
+    transition-duration: 1s;  
+    margin-top: 375px;
+}

@@ -1,0 +1,155 @@
+body {
+    background-image: linear-gradient(#0093E9, #80D0C7);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.box {
+    width: 900px;
+    height: 1100px;
+    border: 1px solid white;
+    padding: 200px;
+    margin: 100px;
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+    font-size: 100px;
+    margin: -150px;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #80D0C7;
+    margin-top: 190px;
+    border: 1px solid #80D0C7;
+    border-radius: 50px;
+    padding: 7px;
+}
+
+.topnav a {
+    float: center;
+    color: #000000;
+    text-align: center;
+    padding: 50px 37px;
+    text-decoration: none;
+    font-size: 29.75px;
+    margin-top: 10px;
+}
+
+.topnav a:hover {
+    background-color: darkblue;
+    color: #80D0C7;
+    transition-duration: 0.5s;
+}
+
+.slideshowbox{
+    max-width: 1000px;
+    position: relative;
+    margin: 100px;;
+}
+
+.myslides {
+    display: none;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+  
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+.dropdown-container {
+    background-color: white;
+    padding: 25px;
+    font-size: 20px;
+    width: 425px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.Select {
+    color: #999999;
+}
+
+.Address1, .Address2, .Address3, .Address4 {
+    color: black;
+}
+
+.column {
+    float: left;
+    width: 45%;
+    padding: 5px;
+    height: 375px;
+}
+
+.columnright {
+    float: right;
+    width: 45%;
+    padding: 5px;
+    height: 375px;
+}
+
+button {
+    width: 925px;
+    background-color:#0093E9;
+    color: white;
+    border: none;
+    border-radius: 100px;
+    padding: 15px;
+    font-size: 20px;
+}
+
+button:hover {
+    width: 925px;
+    background-color:#80D0C7;
+    color: black;
+    border: none;
+    border-radius: 100px;
+    padding: 15px;
+    font-size: 20px;
+    transition-duration: 1s;  
+}
+
+.address {
+    color: black;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}

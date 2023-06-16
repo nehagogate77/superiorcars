@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="Car Rental - Book a Car Page Design.css">
+    </head>
+    <body>
+        <div class="box">
+            <h1>Superior Cars</h1>
+            <div class="topnav">
+                <a href="Car Rental - About Page.html" style="border-right: 1px solid darkblue;">About</a>
+                <a href="Car Rental - Location Page.html" style="border-right: 1px solid darkblue;">Locations</a>
+                <a href="Car Rental - Contact Page.html" style="border-right: 1px solid darkblue;">Contact</a>
+                <a href="Car Rental - Search Reservation Page.html">Search Reservation</a>
+            </div>
+            <br><br>
+            <h2>Select your vehicle.</h2>
+            <button class = "button">
+                <input type = "checkbox" class = "checkbox">
+                <img src = "https://www.nicepng.com/png/full/791-7910764_new-2019-honda-fit-sport-ford-focus-rs.png" 
+                style = "width: 350px; height: 150px; float: left;">
+                <h2 class = "description">Economy</h2>
+                <br>
+                <p>Honda Fit or Similar</p>
+            </button>
+            <br><br>
+            <button class = "button">
+                <input type = "checkbox" class = "checkbox">
+                <img src = "https://www.pngitem.com/pimgs/m/10-100458_2019-toyota-camry-side-view-red-camry-side.png" 
+                style = "width: 375px; height: 150px; float: left;">
+                <h2 class = "description">Standard</h2>
+                <br>
+                <p>Toyota Camry or Similar</p>
+            </button>
+            <br><br>
+            <button class = "button">
+                <input type = "checkbox" class = "checkbox">
+                <img src = "https://www.pngitem.com/pimgs/m/296-2962507_2019-audi-a4-sedan-progressiv-kia-rio-2016.png" 
+                style = "width: 450px; height: 150px; float: left;">
+                <h2 class = "description">Luxury</h2>
+                <br>
+                <p>Audi A4 or Similar</p>
+            </button>
+            <br><br>
+            <button class = "button">
+                <input type = "checkbox" class = "checkbox">
+                <img src = "https://cdn-ds.com/blogs-media/sites/369/2019/10/18114938/Side-view-of-red-2020-Toyota-C-HR_o.jpg" 
+                style = "width: 400px; height: 150px; float: left;">
+                <h2 class = "description">Compact SUV</h2>
+                <br>
+                <p>Toyota CHR or Similar</p>
+            </button>
+            <br><br>
+            <button class = "button">
+                <input type = "checkbox" class = "checkbox">
+                <img src = "https://cdn-ds.com/blogs-media/sites/98/2020/05/19171544/Side-view-of-blue-2020-Nissan-Murano_o.jpg" 
+                style = "width: 350px; height: 150px; float: left;">
+                <h2 class = "description">Standard SUV</h2>
+                <br>
+                <p>Nissan Murano or Similar</p>
+            </button>
+            <br><br>
+            <button class = "button">
+                <input type = "checkbox" class = "checkbox">
+                <img src = "https://cdn.jdpower.com/ChromeImageGallery/ColorMatched/White/640/cc_2020CAS01_03_640/cc_2020CAS010001_03_640_G1W.jpg" 
+                style = "width: 300px; height: 180px; float: left;">
+                <h2 class = "description">Full Size SUV</h2>
+                <br>
+                <p>Cadillac Escalade or Similar</p>
+            </button>
+            <br><br>
+            <button class = "button">
+                <input type = "checkbox" class = "checkbox">
+                <img src = "https://cdn.jdpower.com/ChromeImageGallery/Expanded/White/640/2021MBS90_640/2021MBS900003_640_03.jpg" 
+                style = "width: 300px; height: 190px; float: left;">
+                <h2 class = "description">Luxury SUV</h2>
+                <br>
+                <p>Mercedes-Benz GLE 450 or Similar</p>
+            </button>
+            <br><br>
+            <button class = "button">
+                <input type = "checkbox" class = "checkbox">
+                <img src = "https://www.toyota.com/imgix/responsive/images/gallery/360/2021/sienna/le//3T3/4.png?bg=none&fm=webp&w=930" 
+                style = "width: 350px; height: 150px; float: left;">
+                <h2 class = "description">Minivan</h2>
+                <br>
+                <p>Toyota Sienna or Similar</p>
+            </button>
+            <br><br>
+            <button class = "button">
+                <input type = "checkbox" class = "checkbox">
+                <img src = "https://blog.leithhonda.com/wp-content/uploads/2016/01/2017-Honda-Ridgeline-side-profile.jpg" 
+                style = "width: 350px; height: 175px; float: left;">
+                <h2 class = "description">Trucks</h2>
+                <br>
+                <p>Honda Ridgeline or Similar</p>
+            </button>
+            <br><br>
+            <a href = "Car Rental - Home Page.html"><button class = "backHome">Back to Home Page</button></a>
+            <button class = "book" id = "openingPopUp" onclick = "openPopUp()">Book Now</button>
+            <div id = "popUps" class = "popUp">
+                <div class = "popUpBox">
+                    <p class = "textInsidePopUp">Thank you!<br><br>Your Reservation Number is: </p>
+                    <br><br>
+                    <a  href = "Car Rental - Book a Car Page.html"><button class = "afterReservation">Back to Select Vehicle</button></a>
+                    <button class = "afterReservation" onclick = "openPopUpAgain()">Cancel Reservation</button>
+                    <div class = "popUpAgain"  id = "popUpAgain">
+                        <div class = "popUpBoxAgain">
+                            <p class = "textInsidePopUpAgain">Your reservation is successfully cancelled.</p>
+                            <a  href = "Car Rental - Book a Car Page.html"><button class = "afterReservation" style = "width: 650px;">Back to Select Vehicle</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script>
+                function openPopUp() {
+                    var popUpContainer = document.getElementById("popUps");
+                    var boxPopUp = document.getElementById("openingPopUp");
+                    popUps.style.display = "block";
+                }
+
+                function openPopUpAgain() {
+                    var popUpContainerAgain = document.getElementById("popUpAgain");
+                    popUpAgain.style.display = "block";
+                }
+
+                window.onclick = function(event) {
+                    if (event.target == popUps) {
+                        popUps.style.display = "none";
+                    }
+                }
+                /*boxPopUp.onclick = function() {
+                    popUpContainer.style.display = "block";
+                }*/
+                //https://www.w3schools.com/howto/howto_css_modals.asp
+            </script>
+        </div>
+    </body>
+</html>
